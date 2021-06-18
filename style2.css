@@ -1,0 +1,48 @@
+
+
+#triangle{
+  width: 0px ;
+  height: 0px ;
+  border-left: 100px solid transparent;
+  border-top: 100px solid red;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+}
+
+#forme_ovale{
+  width: 200px ;
+  height: 100px ;
+  background: dodgerblue;
+  border-radius: 100%
+}
+#forme{
+  text-shadow: 3px 3px 5px gray;
+}
+#parag{
+  padding: 20px;
+  width: 300px;
+  height: 350px;
+  border-radius: 10%;
+  color: white;
+  background: dodgerblue;
+  box-shadow: 5px 5px 5px gray;
+
+}
+#table{
+font-family: arial,sans-serif;
+border-collapse: collapse;
+width:100%;
+}
+#td, th{
+  text-align: center;
+  padding: 15px 20px;
+  background-color: dodgerblue;
+  color: white;
+}
+tr:nth-child(odd){
+ background-color: #cbe1f7;
+}
+tr,td,td{
+  border-bottom: 1px solid #70b3fc;
+  padding: 10px;
+}
