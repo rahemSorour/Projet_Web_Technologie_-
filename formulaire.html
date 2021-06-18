@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style > #id1 {
+         width: 50%;
+         height: 50%;
+       float: left; }
+
+         #id2 {
+           width: 50%;
+           height: 50%;
+         float: right; }
+
+       </style>
+
+    <title>Mon Premier Formulaire</title>
+
+  </head>
+  <body>
+    <h1>Votre Avis Nous Interesse </h1>
+    <form class="" action="index.html" method="post">
+<div id="id1">
+
+      <fieldset>
+        <legend> Informations Perssonnelles </legend>
+        <ol>
+          <li>Nom <input type="text" name="text" required="" ></li>
+          <li>Dat de Naissance <input type="date" name="date" required="" ></li>
+          <li>Site <input type="Site" name="Site" placeholder="http|https//monsite.com" required="" ></li>
+          <li> Emploi
+            <select name="Emploi ">
+              <option value="">Etudiant</option>
+              <option value="">Administrateur</option>
+              <option value="">Réseau</option>
+              <option value="">Dévelopeur web</option>
+              <option value="">web designer</option>
+              <option value="">DevOps</option>
+          </select>
+          </li>
+
+          <li>Approx. Salaire annuel <br><input min="0" max="1000" step="0.5"
+             type="numbre" name="numbre" id="numbre" required="" placeholder="$"></li>
+        </ol>
+
+      </fieldset>
+    </div >
+
+        <div="id2">
+      <fieldset>
+        <legend> Informations de Contact </legend>
+        <ol>
+          <li>Adresse ligne 1 <br> <input type="address" required="" " name="Adresse"</li>
+          <li>Adresse ligne 2 <br> <input type="address" required="" " name="Adresse" </li>
+<li>Pays
+  <select  name=" Pays">
+    <option value="">Algérie</option>
+    <option value="">Tunisie</option>
+    <option value="">Maroc</option>
+  </select>
+
+</li>
+          <li>Tél <input type="tel" name="tel" required=""  placeholder="eg:+213 67..." value=""></li>
+          <li>Courriel<input type="email" name="email" required="" ></li>
+        </ol>
+      </fieldset>
+</div >
+    </form>
+
+    <h1>Préférences</h1>
+    <div >
+    choisir une couleur <input type="color" name="color" value="black"> <br>
+  </div>
+  <div >
+    sur une échelle de 1 a 10 , quel est votre degre d'enthousiasme pour HTML5 ? <input type="range" name="" required="" >
+</div>
+
+  <div >
+   <input type="submit" name="submit" value="Envoyer">
+    </div>
+  </body>
+</html>
